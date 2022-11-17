@@ -15,7 +15,7 @@ def test_third_status_code(client):
     assert response.status_code == 200
 
 
-def test_third_status_code(client):
+def test_third_return_value(client):
     """
     Test the api returned data
     :param cleint: An app test client from the fixture
